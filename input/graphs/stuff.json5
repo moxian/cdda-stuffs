@@ -1,0 +1,56 @@
+{
+    "have": [
+        "meat_smoked", "dry_meat",  "sausage",
+    //     // "cracklins",
+    //     // "pickle",
+    //     // "pinecone",
+    //     // "fat", 
+    //     // "butter",
+    //     // "meat_smoked", "sausage",
+    //     // "milk"
+    //     // "flour",
+        "bread",
+        // "sauce_red",
+        // "vinegar"
+        // "fiddlehead_raw",
+        //   "veggy_wild",
+        // "egg_bird",
+        // "bone",
+     ],
+    // pantry: [
+    //     "water_clean",
+    //     "salt", "seasoned salt", "chili powder", "soy sauce", "Italian seasoning",
+    //     "wheat", "yeast", "flour",
+    //     "bread",
+    //     "sourdough_starter",
+    //     // "fat", 
+    //     "vegetable cooking oil", "animal cooking oil",
+    //     "vinegar",
+    //     "smoked meat", "canned meat",  "bologna", "bacon",
+    //     "sourdough starter",
+    //     "bird egg",
+    //     "peanut butter", "fruit jam", "maple syrup",
+    //     "ketchup", "mustard", "horseradish",
+    //     "sugar",
+    //     "sauerkraut",
+    //     "dried beans",
+    // ],
+    "restrict_type": ["COMESTIBLE"],
+    "blacklist": [
+        "soap", "glazing", "superglue", "plastic_chunk", "wastebread", "bone_glue",
+        // "veggy_any"
+    ],
+    "hide": [
+        "salt", "sugar", "water_clean", "salt_water", "vinegar", "seasoning_salt",
+        "catfood", "dogfood", "birdfood", "cattlefodder", "wastebread",
+    ],
+    "healthy_min": 1,
+    "unobtainables": [
+        "royal_jelly",
+        "cheese", "cheese_hard", "can_cheese",
+        "raw_beans", "can_beans", "dry_beans",  "beans_cooked",
+        "dry_rice", "rice_cooked",
+        "milk", "milk_powder", "con_milk", "milk_standard",  "milk_standard_raw",
+    ],
+    "show_multiplier": true,
+}

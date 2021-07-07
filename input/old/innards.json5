@@ -1,0 +1,5 @@
+{
+    // "have": ["liver", "kidney"],
+    "have": ["lung", "brain", "sweetbread"],
+    "healthy_min": 0,
+}

@@ -1,0 +1,17 @@
+{
+  whitelist: [
+    // 'MOLLE pack',
+    // 'backpack',
+    // 'daypack',
+    // 'sling pack',
+    // 'dive bag',
+    // 'survivor backpack',
+    // 'survivor rucksack',
+    // 'survivor harness',
+    // 'military rucksack',
+    // 'survivor suit',
+    // 'XL heavy survivor suit',
+  ],
+  pocket_flag_any: [],
+  labels: true,
+}

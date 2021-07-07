@@ -1,0 +1,7 @@
+{
+    have: [
+        // "bone"
+        "chitin_piece",
+    ],
+    blacklist: ["bone_glue", "superglue", "wastebread"],
+}

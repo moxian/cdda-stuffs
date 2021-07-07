@@ -1,0 +1,23 @@
+{
+    "want_skill":  // ,
+        "fabrication",
+        // "survival",
+        // "tailor",
+    "forbidden_mats": [
+        "jabberwock_heart",
+        "rebar",
+        "frame_wood", "wheel_wood_b",
+    ],
+    "forbidden_meta": [
+        "welding_standard",
+        "blacksmithing_standard",
+        "forging_standard",
+        "plastic_molding",
+    ],
+    "skills": {
+        "tailor": 4,
+        // "electronics": 0,
+        "fabrication": 1,
+        "survival": 2,
+    },
+}

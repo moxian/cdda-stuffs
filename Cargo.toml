@@ -1,0 +1,27 @@
+[package]
+name = "food"
+version = "0.1.0"
+authors = ["moxian <moxian@google.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+incremental = true
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = {version = "1.0", features = ["preserve_order"] }
+json5 = {version = "0.2" }
+walkdir = "2"
+itertools = "0.9"
+ordered-float="1"
+enum-as-inner = "0.3"
+
+log = "0.4"
+simple_logger = "1"
+env_logger ="0.7"
+
+structopt = "0.3"
+
+plotters = {version = "0.3", default-features = false, features=["line_series", "point_series", "svg_backend"]}

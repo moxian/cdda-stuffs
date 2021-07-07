@@ -1,0 +1,5 @@
+{
+    "have": ["meat"],
+    "blacklist": ["superglue", "meat_tainted"],
+    "healthy_min": 1,
+}

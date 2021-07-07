@@ -1,0 +1,26 @@
+{
+    covers_all: ["arm_r"],
+    covers_none: ["leg_r"],
+    columns: [
+        "item.header.name.str|item.header.name.str_sp|item.header.name",
+        "encumbrance|.enc",
+        "total",
+        "bash", "cut", "acid",
+        "item.inner.warmth",
+        // "item.inner.material",
+        // "item.header.flags"
+        "item.inner.coverage",
+        // "item.inner.covers",
+    ],
+    // sort_by: [ "encumbrance"],
+    sort_by: [ "total"],
+    need_flags: [
+        // "WAIST",
+        // "SKINTIGHT",
+        // "OUTER",
+        // "STURDY",
+        // "WATERPROOF",
+    ],
+    // covers_only: true,
+    allow_unobtainable: false,
+}
